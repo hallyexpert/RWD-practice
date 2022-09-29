@@ -1,7 +1,4 @@
 $(document).ready(function(){
-    $('body').on('click', 'a', function(event) {
-        event.preventDefault();
-      });  
 
     // banner
     $("a[href$='.svg']").addClass('fa-solid fa-utensils');
